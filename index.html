@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeshito - Tu café de especialidad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Cafeshito</h1>
+            <p>El mejor café para despertar tus sentidos cada mañana.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-container">
+                <article class="card">
+                    <img src="https://hortelanocoffeeroasters.com/cdn/shop/articles/ChatGPT_Image_May_20_2025_04_48_44_PM_53d2deb6-0e18-4930-a0ca-ac3d39f424cb.png?v=1747752612&width=1780" alt="Café Espresso">
+                    <h3>Espresso Intenso</h3>
+                    <p>Un golpe de energía con notas a chocolate amargo.</p>
+                </article>
+                <article class="card">
+                    <img src="https://s10.s3c.es/imag/_v0/5824x3178/b/2/1/1200x655_cafe-espana-bebida-top.jpg" alt="Café Latte">
+                    <h3>Latte Suave</h3>
+                    <p>Espresso perfecto con una capa de leche emulsionada.</p>
+                </article>
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?q=80&w=714&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Café Frío">
+                    <h3>Cold Brew</h3>
+                    <p>Extraído en frío por 24 horas, refrescante y ligero.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="resenas">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="resenas-grid">
+                <div class="resena-item">
+                    <p>"El mejor lugar para arrancar la mañana. ¡Increíble!"</p>
+                    <span>- Macarena</span>
+                </div>
+                <div class="resena-item">
+                    <p>"Me encanta el ambiente y el café frío está tremendo."</p>
+                    <span>- Zoe</span>
+                </div>
+                <div class="resena-item">
+                    <p>"Tienen mucha variedad. Siempre vengo a estudiar acá."</p>
+                    <span>- Noe</span>
+                </div>
+                <div class="resena-item">
+                    <p>"La atención es un 10 y el Espresso me devolvió las ganas de vivir."</p>
+                    <span>- Belén</span>
+                </div>
+            </div>
+            
+            <div class="video-container">
+                <h2>Conocé cómo preparamos tu café</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6QgJk1qFIps" title="Video de Cafeshito" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contactanos</h2>
+            <form action="https://formspree.io/f/xwlvwlpq" method="POST" class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cafeshito. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
